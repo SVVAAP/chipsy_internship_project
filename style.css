@@ -186,6 +186,59 @@ button {
     align-items: center;
 
 }
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    align-items: center;
+}
+.footer_container p{
+    color: var(--Colour-Main-Grey-400, #939EA4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 14 */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+.footer_container h2{
+    color: var(--Colour-Logo-Primary, #37447E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Bold 26 */
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px; /* 146.154% */
+}
+.footer_container button{
+    color: var(--colour-secondary-white-100-general, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 12 */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+}
+
+#footer p{
+    color: var(--Colour-Main-Grey-400, #939EA4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 14 */
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+   }
+
 
 /* Add this CSS to your existing styles */
 #mobile-menu-icon {
@@ -287,11 +340,52 @@ button {
 
     .footer_container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 5%;
         align-items: center;
-
     }
+    .footer_container p{
+        color: var(--Colour-Main-Grey-400, #939EA4);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Medium 14 */
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 171.429% */
+    }
+    .footer_container h2{
+        color: var(--Colour-Logo-Primary, #37447E);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Bold 26 */
+        font-family: Roboto;
+        font-size: small;
+    }
+    .footer_container button{
+        color: var(--colour-secondary-white-100-general, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Medium 12 */
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 150% */
+    }
+   #footer p{
+    color: var(--Colour-Main-Grey-400, #939EA4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 14 */
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+   }
 
 }
 
